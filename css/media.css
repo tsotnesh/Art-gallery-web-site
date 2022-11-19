@@ -1,0 +1,183 @@
+@media (max-width:768px) {
+    .block1 {
+        display:none;
+    }
+    .photo1 {
+        width:437px;
+        height:700px;
+    }
+
+    .logo-dark {
+        display:block;
+    }
+
+    .logo {
+        display:none;
+    }
+
+    .header-section-text {
+        position:absolute;
+        top:323px;
+        left:389px;
+        width:339px;
+        height:112px;
+        font-size:18px;
+    }
+
+    .link-full-block {
+           position:absolute;
+           top:483px;
+           left: 421px;
+    }
+
+    .photo2 {
+        width:398px;
+        height:400px;
+    }
+
+    .first-section-text {
+        margin-top:24px;
+        font-size:18px;
+        width:223px;
+        height: 140px;
+    }
+
+    .first-section-header {
+        font-size:50px;
+        width:223px;
+        height: 135px;
+    }
+
+    .photo3 {
+        width:398px;
+        height:720px;
+    }
+
+    .photo4 {
+        width: 280px;
+        height: 313px;
+    }
+
+    .second-section-block {
+        width:280px;
+        height:396px;
+    }
+
+    .black-block-header {
+        font-size:50px;
+        width: 223px;
+        height: 90px;
+    }
+
+    .black-block-paragraph {
+        font-size:22px;
+        width:223px;
+        height:112px;
+    }
+
+    .footer-left-text {
+         width:110px;
+         height:40px;
+    }
+    .footer-paragraph {
+          width:281px;
+          height:104px;
+    }
+
+    .socmedia {
+        width:80px;
+    }
+
+    .footer-box {
+        width:600px;
+    }
+
+}
+
+
+@media (max-width:375px) {
+    .photo1 {
+       display:none;
+    }
+
+    .logo-dark {
+        position:absolute;
+        width:343px;
+        height:110px;
+        top:272px;
+        left:16px;
+    }
+
+    .header-section-text {
+        position:absolute;
+        font-size:18px;
+        width:343px;
+        top:414px;
+        left:16px;
+    }
+
+    .link-full-block {
+        position:absolute;
+        top: 558px;
+        left:16px;
+    }
+
+    .photo-mobile {
+        display:block;
+        width:357px;
+        height:228px;
+    }
+
+    .first-section {
+        margin-top: 510px;
+        flex-direction: column;
+    }
+
+    .second-section {
+        flex-direction: column;
+    }
+
+    .photo1 {
+        display:none;
+    }
+
+    .photo2-mobile {
+        display:block;
+        width: 343px;
+        height:320px;
+    }
+
+    .first-section-header {
+        margin-top:25px;
+        margin-left:16px;   
+        font-size:50px;
+    }
+
+    .first-section-text {
+        font-size:18px;
+        margin-top:21px;
+        margin-left:16px;
+    }
+
+    .footer-box {
+        flex-direction: column;
+    }
+
+    .footer-left-text {
+        width:110px;
+        height:50px;
+    }
+
+    .footer-paragraph {
+        margin-top:40px;
+        font-size:16px;
+        width:311px;
+        height:104px;
+    }
+
+    .socmedia {
+        width:70px;
+    }
+
+   
+}

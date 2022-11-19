@@ -1,0 +1,317 @@
+/* style for index page */
+.header-section {
+    position:relative;
+}
+
+.high-block {
+    max-width: 990px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.photo-mobile {
+    display:none;
+}
+
+.photo2-mobile {
+    display:none;
+}
+
+.logo-dark {
+    position:absolute;
+    top:145px;
+    left: 389px;
+    width:339px;
+    height:130px;
+    display:none;
+}
+
+.logo {
+    position: absolute;
+    top: 189px;
+    left:165px;
+    width:514px;
+    height:176px;
+    /* amas sheudzlia feri shecvalos. am shemtxvevashi tetri ferit dawerili teksti rom gadacda
+    shav box-s gadacdenili nawili shavad chaanacvla, saintereso ramea. */
+    mix-blend-mode: difference;
+}
+
+.block1 {
+    width:450px;
+    height:799px;
+    background-color:#151515;
+}
+
+.photo1 {
+    width:540px;
+    height:800px;
+}
+
+.header-section-text {
+    position:absolute;
+    font-size:22px;
+    font-family: 'Outfit', sans-serif;
+    width:350px;
+    top:190px;
+    left:925px;
+    color:#444444;
+}
+
+.link-block {
+    display:flex;
+    width:204px;
+    height:72px;
+    background-color:#151515;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-out;
+}
+.arrow-right {
+    background-color: #D5966C;
+    width:56px;
+    height:72px;
+    transition: all 0.5s ease-in-out;
+}
+
+.link-full-block {
+    position:absolute;
+    max-width:260px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    top:414px;
+    left:925px;
+}
+
+.location-text {
+    font-size:24px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+    color:#FFFFFF;
+}
+
+.first-section {
+    margin: 0 auto;
+    margin-top: 180px;
+    max-width: 1110px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-section-info {
+    display:flex;
+    flex-direction: column; 
+}
+.first-section-header {
+    color:#151515;
+    font-size:60px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    width:350px;
+    height:120px;
+}
+
+.first-section-text {
+    margin-top: 32px;
+    color:#444444;
+    font-size:22px;
+    font-family: 'Outfit', sans-serif;
+    font-weight:300;
+    width:350px;
+    height:128px;
+}
+
+.photo2 {
+    width:635px;
+    height:400px;
+    
+}
+
+.second-section {
+    margin: 0 auto;
+    max-width:1110px;
+    width:100%;
+    margin-top:30px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.photo3 {
+    width:635px;
+    height:720px;
+}
+
+.second-section-box {
+    display:flex;
+    flex-direction: column;
+}
+.photo4 {
+    width:445px;
+    height:313px;
+}
+
+.second-section-block {
+    width:445px;
+    height:377px;
+    background-color: #151515;
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-block-text {
+    display:flex;
+    flex-direction: column;
+}
+.black-block-header {
+    font-size: 60px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    color:#FFFFFF;
+    width:350px;
+    height:120px;
+}
+
+.black-block-paragraph {
+    color:#FFFFFF;
+    font-size:22px;
+    font-family: 'Outfit', sans-serif;
+    font-weight:300;
+    width:350px;
+    height:96px;
+    margin-top:32px;
+}
+
+.footer {
+    margin-top: 180px;
+    height:244px;
+    background-color:#151515;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    max-width: 1110px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.socmedia {
+    width:100px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-left-text {
+    color:#FFFFFF;
+    width:158px;
+    height:58px;
+    font-size:26px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+}
+
+.footer-paragraph {
+    color:#FFFFFF;
+    font-size:18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    width:430px;
+    height:84px;
+}
+
+.fb,.insta,.twit {
+    width:20px;
+    height:20px;
+}
+
+/* style for location page */
+
+.location-photo {
+    width:100%;
+    position:relative;
+}
+
+.location-mobile {
+    display:none;
+    width:375px;
+    height:574px;
+}
+
+.back {
+    top: 0px;
+    left: 0px;
+} 
+
+.middle-block {
+    margin-top:0;
+    height:500px;
+    background-color:#151515;
+    position:relative;
+}
+
+.header-location {
+    position:absolute;
+    font-size: 70px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    color: white;
+    width:350px;
+    height:140px;
+    top: 104px;
+    left:165px;
+}
+
+.location-long {
+    position:absolute;
+    top: 104px;
+    right: 165px;
+}
+.location-long-header {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    font-size:36px;
+    color:#D5966C;
+    margin-bottom:24px;
+}
+
+.location-long-text1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size:22px;
+    color:#FFFFFF;
+}
+
+.location-long-text2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size:22px;
+    color:#FFFFFF;
+    max-width: 540px;
+    width:100%;
+    height: 128px;
+    margin-top:32px;
+}
+
+.active {
+    background-color:#D5966C;
+    margin-top:0;
+}
+
+
+
+
+/* hover effects */
+
+.link-full-block:hover > .link-block {
+    background-color: #D5966C;
+}
+
+.link-full-block:hover > .arrow-right {
+    background-color:#151515;
+}
